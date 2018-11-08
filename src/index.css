@@ -12,3 +12,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* background helpers */
+.bg-black {
+  background-color: #252525;
+  color: var(--white);
+}
+
+/* button helpers */
+.btn-pink {
+  background-color: #ea4c89;
+  color: var(--white);
+}
