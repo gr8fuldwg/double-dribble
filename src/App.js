@@ -57,7 +57,7 @@ class App extends Component {
             <p className="text-white-50">Looking for a designer?<u> <a href="#" className="text-white">Learn more</a></u></p>
           </section>
         </header>
-        <main className="h-100">
+        <main className="h-100 d-flex flex-column">
           <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center align-items-center">
             <ul className="navbar-nav">
               <li className="nav-item">
@@ -67,14 +67,22 @@ class App extends Component {
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link text-dark font-weight-bold">
-                Shots <i className="fa fa-angle-down"></i></a>
+                  Shots <i className="fa fa-angle-down"></i></a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link text-dark font-weight-bold">
-                Now <i className="fa fa-angle-down"></i></a>
+                  Now <i className="fa fa-angle-down"></i></a>
               </li>
             </ul>
           </nav>
+          <section className="porject-grid flex-grow-1">
+            <div className="card" style={{ width: "18rem" }}>
+              <img className="card-img-top" src="http://loremflickr.com/180/100" alt="Card image cap" />
+              <div className="card-body">
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </section>
         </main>
       </div>
     );
