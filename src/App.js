@@ -51,12 +51,31 @@ class App extends Component {
             <p><span className="font-weight-bold">What are you working on?</span> Double Dribbble is where designers get inspired and hired.</p>
             <button className="btn btn-sm btn-pink">
               Continue <i className="fa fa-long-arrow-right"></i>
-          </button>
+            </button>
           </section>
           <section className="h-25 bg-dark text-white d-flex justify-content-center align-items-center">
-          <p className="text-white-50">Looking for a designer?<u> <a href="#" className="text-white">Learn more</a></u></p>
+            <p className="text-white-50">Looking for a designer?<u> <a href="#" className="text-white">Learn more</a></u></p>
           </section>
         </header>
+        <main className="h-100">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center align-items-center">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a href="#" className="nav-link text-dark font-weight-bold ">
+                  Popular <i className="fa fa-angle-down"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link text-dark font-weight-bold">
+                Shots <i className="fa fa-angle-down"></i></a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link text-dark font-weight-bold">
+                Now <i className="fa fa-angle-down"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </main>
       </div>
     );
   }
