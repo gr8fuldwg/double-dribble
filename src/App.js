@@ -75,13 +75,57 @@ class App extends Component {
               </li>
             </ul>
           </nav>
-          <section className="porject-grid flex-grow-1">
-            <div className="card" style={{ width: "18rem" }}>
-              <img className="card-img-top" src="http://loremflickr.com/180/100" alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <section className="porject-grid flex-grow-1 p-4 d-flex flex-wrap justify-content-around">
+            <div>
+              <div className="card p-2 " style={{ width: "16rem" }}>
+                <img className="card-img-top" src="http://loremflickr.com/240/180" alt="Card image cap" />
+                <div className="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye "></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
               </div>
             </div>
+            <div>
+              <div className="card p-2 " style={{ width: "16rem" }}>
+                <img className="card-img-top" src="http://loremflickr.com/240/180" alt="Card image cap" />
+                <div className="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye "></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="card p-2 " style={{ width: "16rem" }}>
+                <img className="card-img-top" src="http://loremflickr.com/240/180" alt="Card image cap" />
+                <div className="card-body d-flex justify-content-end p-1">
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-eye "></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                  <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="card p-2 " style={{ width: "16rem" }}>
+                <img className="card-img-top" src="http://loremflickr.com/240/180" alt="Card image cap" />
+                <div className="card-body d-flex justify-content-end p-1">
+                 <span className="text-muted mx-1 text-small"><i className="fa fa-eye "></i>2,108</span>
+                 <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                 <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+              </div>
+              <div>
+              <div className="card p-2 " style={{ width: "16rem" }}>
+                <img className="card-img-top" src="http://loremflickr.com/240/180" alt="Card image cap" />
+                <div className="card-body d-flex justify-content-end p-1">
+                 <span className="text-muted mx-1 text-small"><i className="fa fa-eye "></i>2,108</span>
+                 <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i>2,108</span>
+                 <span className="text-muted mx-1 text-small"><i className="fa fa-heart"></i>2,108</span>
+                </div>
+              </div>
+              </div>
           </section>
         </main>
       </div>

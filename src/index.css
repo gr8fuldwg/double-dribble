@@ -24,3 +24,8 @@ code {
   background-color: #ea4c89;
   color: var(--white);
 }
+
+/* text helpers */
+.text-small {
+  font-size: 0.8rem;
+}
