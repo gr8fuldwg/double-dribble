@@ -6,8 +6,7 @@ import FullPageView from './layouts/FullPageView';
 
 
 
-class App extends Component {
-  render() {
+function App (props) {
     return (
       <FullPageView>
         <Header />
@@ -15,6 +14,6 @@ class App extends Component {
       </FullPageView >
     );
   }
-}
+
 
 export default App;
