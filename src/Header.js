@@ -26,7 +26,7 @@ function Header(props) {
             </li>
             <li className="nav-item">
               <a className="nav-link " href="#">
-                <i className="fa fa-ellipsis-h" aria-hiden="true"></i>
+                <i className="fa fa-ellipsis-h" aria-hidden="true"></i>
               </a>
             </li>
           </ul>
