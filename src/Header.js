@@ -8,29 +8,35 @@ function Header(props) {
       <nav className=" navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="#">Dribble</a>
         <ul className="navbar-nav mr-auto">
-        <NavLink title={"Shots"} />
-        <NavLink title={"Designers"} />
-        <NavLink title={"Teams"} />
-        <NavLink title={"Community"} />
-        <NavLink title={"Jobs"} />
-        <NavLink title={"Hiring"} />
-        
-
-
-          
-          <li className="nav-item">
-            <a className="nav-link " href="#">
-              <i className="fa fa-ellipsis-h" aria-hidden="true"></i>
-            </a>
-          </li>
+          <NavLink href="#">
+            Shots<span className="sr-only">(current)</span>
+          </NavLink>
+          <NavLink href="#">
+            Designers
+          </NavLink>
+          <NavLink href="#">
+            Designers
+          </NavLink>
+          <NavLink href="#">
+            Designers
+          </NavLink>
+          <NavLink href="#">
+            Designers
+          </NavLink>
+          <NavLink href="#">
+            Designers
+          </NavLink>
+          <NavLink href="#">
+            <i className="fa fa-ellipsis-h" aria-hidden="true"></i>
+          </NavLink>
         </ul>
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link " href="#">Sign Up</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href="#">Sign In</a>
-          </li>
+          <NavLink href="#">
+            Sign Up
+          </NavLink>
+          <NavLink href="#">
+            Sign In
+          </NavLink>
         </ul>
         <form className="form-inline my-2 my-lg-0">
           <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
@@ -46,7 +52,7 @@ function Header(props) {
         <p className="text-white-50">Looking for a designer?<u> <a href="#" className="text-white">Learn more</a></u></p>
       </section>
     </header>
-  )
+  );
 }
 
 export default Header;

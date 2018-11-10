@@ -5,7 +5,7 @@ function Card(props) {
     return (
         <div>
             <div className="card p-2 " style={{ width: "22rem" }}>
-                <img className="card-img-top" src={props.src} alt="Card image cap" />
+                <img className="card-img-top" src={props.src} alt="Card cap" />
                 <div className="card-body d-flex justify-content-end p-1">
                     <span className="text-muted mx-1 text-small"><i className="fa fa-eye "></i> {props.views}</span>
                     <span className="text-muted mx-1 text-small"><i className="fa fa-comment"></i> {props.comments}</span>
